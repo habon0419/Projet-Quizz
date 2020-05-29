@@ -18,10 +18,65 @@
 <body>
     <header>
         <nav class="nav">
-            <div class="logo"><img src="quizzformat/image/logo-QuizzSA.png" width="50"></div>
+            <div class="logo"><img src="quizzformat/img/logo-QuizzSA.png" width="50"></div>
             <p class="titre">Le plaisir de jouer</p>
         </nav>
     </header>
+    <body style="">
+        <style>
+            body {
+              background-repeat: no-repeat;
+            }
+            body{
+                padding: 0;
+                margin: 0;
+                background-image: url("quizzformat/img/img-bg.png");
+                background-size: cover;
+                background-repeat: no-repeat
+            }
+            .logo img{
+                height: 75px;
+                margin:0px -13px 0px 16px;
+            }
+            .nav{
+                background-color: #042425;
+                height: 80px;
+            }
+            .titre{
+                text-align: center;
+                color: white;
+                font-size: 39px;
+                margin:6px 0px 0px 361px;
+            }
+            
+            
+            @media screen and (min-width: 667px) and  (max-width: 1024px){
+                body{
+                    background-size: 190%;
+                }
+                .titre{
+                    margin-top: -6%;
+                }
+            }
+            
+            @media screen and (min-width: 320px) and  (max-width: 667px){
+                body{
+                    background-size: 280%;
+                }
+            
+                .titre{
+                    margin-top: -11%;
+                    font-size: 1.5em;
+                }
+            }
+            #brand-logo {
+              font-size: 34px;
+            }
+            
+            #app-navbar {
+              background: linear-gradient(120deg, #00e4d0, #5983e8);
+            }
+            </style>
     <div class="d-flex flex-row" style="margin: 105px 0px 21px 238px;width: 798px;height: 563px;">
             <div class="border rounded-0 d-inline-flex" style="background-color: #ffffff;height: 587px;width: 783px;margin: -104px 0px 0px -90px;">
                 <div class="border-dark" style="background-color: #ffffff;height: 396px;width: 594px;margin: -1px 83px 0px 0px;">
@@ -41,7 +96,7 @@
                     class="btn btn-primary" type="button" style="height: 35px;padding: 0px;margin: -14px 0px 0px 200px;width: 134px;background-color: rgb(58,221,214);font-size: 21px;">Créer compte</button>
             </div>
             <div class="border-dark" style="background-color: #ffffff;height: 332px;width: 396px;margin: 0px 0px 0px 0px;">
-                <div class="border rounded-circle border-primary" style="width: 250px;height: 250px;margin: 47px 2px 4px -55px;background-color: #ffffff;"><img class="rounded-circle border-success" src="quizzformat/image/avatar1.png" style="width: 285px;height: 279px;margin: -17px 0px 0px -21px;"></div>
+                <div class="border rounded-circle border-primary" style="width: 250px;height: 250px;margin: 47px 2px 4px -55px;background-color: #ffffff;"><img class="rounded-circle border-success" src="quizzformat/img/avatar1.png" style="width: 285px;height: 279px;margin: -17px 0px 0px -21px;"></div>
                 <p class="text-center" style="margin: 0px 30px 0px -8px;font-size: 23px;width: 172px;color: rgb(0,0,0);">Avatar du joueur</p>
             </div>
         </div>
